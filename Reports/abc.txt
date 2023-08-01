@@ -1,0 +1,7 @@
+
+@EndToEndTesting
+Scenario: Test register page of guru99                                                 [90m# FeatureFiles/guru99.feature:5[0m
+  [32mGiven [0m[32mUser open register page url on [0m[32m[1m"edge"[0m[32m browser[0m                                  [90m# StepDefinition.RegisterPageStepDef.user_open_register_page_url_on_browser(java.lang.String)[0m
+  [32mThen [0m[32mUser enter Firstname lastname phone email[0m                                       [90m# StepDefinition.RegisterPageStepDef.user_enter_firstname_lastname_phone_email(io.cucumber.datatable.DataTable)[0m
+  [32mAnd [0m[32muser enters address city state pincode and country[0m                               [90m# StepDefinition.RegisterPageStepDef.user_enters_address_city_state_pincode_and_country(io.cucumber.datatable.DataTable)[0m
+  [32mAnd [0m[32mUser enter username and password and confirm password and click on submit button[0m [90m# StepDefinition.RegisterPageStepDef.user_enter_username_and_password_and_confirm_password_and_click_on_submit_button(io.cucumber.datatable.DataTable)[0m

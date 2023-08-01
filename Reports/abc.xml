@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="52.531">
+    <testcase classname="Test Guru99 application" name="Test register page of guru99" time="51.759">
+        <system-out><![CDATA[Given User open register page url on "edge" browser.........................passed
+Then User enter Firstname lastname phone email..............................passed
+And user enters address city state pincode and country......................passed
+And User enter username and password and confirm password and click on submit button.passed
+]]></system-out>
+    </testcase>
+</testsuite>

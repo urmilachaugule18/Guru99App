@@ -1,0 +1,122 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-01T15:34:37.172Z",
+        "line": 5,
+        "name": "Test register page of guru99",
+        "description": "",
+        "id": "test-guru99-application;test-register-page-of-guru99",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42364573800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User open register page url on \"edge\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"edge\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinition.RegisterPageStepDef.user_open_register_page_url_on_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2226709400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter Firstname lastname phone email",
+            "match": {
+              "location": "StepDefinition.RegisterPageStepDef.user_enter_firstname_lastname_phone_email(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "abc",
+                  "xyz",
+                  "9876543210",
+                  "abx@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1705414900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters address city state pincode and country",
+            "match": {
+              "location": "StepDefinition.RegisterPageStepDef.user_enters_address_city_state_pincode_and_country(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "pune",
+                  "Pune",
+                  "Maharashta",
+                  "444444",
+                  "INDIA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5280147200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter username and password and confirm password and click on submit button",
+            "match": {
+              "location": "StepDefinition.RegisterPageStepDef.user_enter_username_and_password_and_confirm_password_and_click_on_submit_button(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "abc123",
+                  "abc@123",
+                  "abc@123"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EndToEndTesting"
+          }
+        ]
+      }
+    ],
+    "name": "Test Guru99 application",
+    "description": "",
+    "id": "test-guru99-application",
+    "keyword": "Feature",
+    "uri": "file:FeatureFiles/guru99.feature",
+    "tags": [
+      {
+        "name": "@EndToEndTesting",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
